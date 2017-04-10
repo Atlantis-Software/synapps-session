@@ -1,4 +1,4 @@
-# synapse-session
+# synapps-session
 
 ## Installation
 
@@ -8,13 +8,13 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```bash
-$ npm install synapse-session
+$ npm install @synapps/session
 ```
 
 ## API
 
 ```js
-var session = require('synapse-session');
+var session = require('@synapps/session');
 ```
 
 ### session(options)
@@ -23,10 +23,10 @@ create a session middleware with the given `options`.
 
 #### Options
 
-`synapse-session` accepts these properties in the options object.
+`synapps/session` accepts these properties in the options object.
 
 ```js
-var app = synapse();
+var app = synapps();
 app.use(session({
   maxAge: 60000
 }));
