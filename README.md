@@ -1,5 +1,11 @@
 # synapps-session
 
+[![npm version](https://badge.fury.io/js/%40synapps%2Fsession.svg)](https://badge.fury.io/js/%40synapps%2Fsession)
+[![Build](https://travis-ci.org/Atlantis-Software/synapps-session.svg?branch=master)](https://travis-ci.org/Atlantis-Software/synapps-session)
+[![Coverage Status](https://coveralls.io/repos/github/Atlantis-Software/synapps-session/badge.svg?branch=master)](https://coveralls.io/github/Atlantis-Software/synapps-session?branch=master)
+[![NSP Status](https://nodesecurity.io/orgs/atlantis/projects/d5bab00c-95c6-4c71-a85d-d1d7d6c00e7c/badge)](https://nodesecurity.io/orgs/atlantis/projects/d5bab00c-95c6-4c71-a85d-d1d7d6c00e7c)
+[![Dependencies Status](https://david-dm.org/Atlantis-Software/synapps-session.svg)](https://david-dm.org/Atlantis-Software/synapps-session)
+
 ## Installation
 
 
