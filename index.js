@@ -1,7 +1,7 @@
 var fileStore = require('./lib/fileStore');
 var uuid = require('uuid');
 
-function generateSessionId(req) {
+function generateSessionId() {
   return uuid.v4();
 }
 
@@ -36,5 +36,5 @@ module.exports = function(opts) {
       store.createSession(req, {});
       next();
     }
-  }
+  };
 };

@@ -3,8 +3,7 @@
   "description": "Simple session middleware for Synapps",
   "version": "0.0.2",
   "author": "Alexandre Tiertant <a.tiertant@atlantis-software.net>",
-  "contributors": [
-  ],
+  "contributors": [],
   "license": "MIT",
   "main": "./index.js",
   "repository": "https://github.com/Atlantis-Software/synapps-session",
@@ -14,15 +13,21 @@
   ],
   "dependencies": {
     "lodash": "4.17.4",
-    "uuid": "3.0.1"  
+    "uuid": "3.0.1"
   },
   "devDependencies": {
-    "mocha": "3.2.0"
+    "coveralls": "^3.0.0",
+    "eslint": "~3.11.1",
+    "istanbul": "0.4.5",
+    "mocha": "~5.0.0",
+    "nyc": "~11.4.1"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "mocha --bail --reporter spec test/"
+    "test": "nyc mocha --timeout=10000 --exit",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint ./"
   }
 }
